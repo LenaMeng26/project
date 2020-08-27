@@ -1,0 +1,288 @@
+@charset "UTF-8";
+.h-logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 100; }
+
+#header {
+  background: black; }
+  #header .h-bx {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative; }
+    #header .h-bx .h-nav {
+      float: left; }
+      #header .h-bx .h-nav .ul_nav {
+        float: left;
+        margin-left: 20px; }
+        #header .h-bx .h-nav .ul_nav .lis {
+          float: left;
+          line-height: 49px;
+          font-size: 15px;
+          margin-right: 22px; }
+          #header .h-bx .h-nav .ul_nav .lis a {
+            color: #8d8d8d; }
+    #header .h-bx .h-right {
+      float: right;
+      height: 49px;
+      line-height: 50px;
+      margin-right: 20px;
+      display: block; }
+      #header .h-bx .h-right a {
+        color: #fff;
+        font-size: 13px; }
+      #header .h-bx .h-right .vertical-line {
+        border-left: 1px solid #b8b8b8;
+        height: 11px;
+        display: inline-block;
+        margin: auto 2px; }
+    #header .h-bx .exit {
+      float: right;
+      height: 49px;
+      line-height: 50px;
+      margin-right: 20px;
+      display: block; }
+      #header .h-bx .exit span {
+        color: red;
+        font-size: 13px; }
+      #header .h-bx .exit a {
+        color: #fff;
+        font-size: 13px; }
+
+.cartImg {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0; }
+  .cartImg .imgLeft {
+    float: left; }
+  .cartImg .imgRight {
+    float: right; }
+
+#cartMain {
+  color: #000;
+  background: #fff;
+  margin-top: 40px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative; }
+  #cartMain .cartCon .checkAll {
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000000;
+    font-family: arial, "微软雅黑", \5b8b\4f53, sans-serif; }
+    #cartMain .cartCon .checkAll input {
+      display: inline-block;
+      width: 14px;
+      height: 14px; }
+  #cartMain .cartCon .cartTable table {
+    width: 100%;
+    border: 1px solid #d9d8d6;
+    border-bottom: 0;
+    margin-bottom: 10px; }
+    #cartMain .cartCon .cartTable table tbody tr th {
+      height: 36px;
+      line-height: 36px;
+      font-weight: normal;
+      font-size: 15px;
+      background: #f8f8f8;
+      text-align: center;
+      border-bottom: 1px solid #d9d8d6; }
+  #cartMain .cartCon .table-con {
+    display: block;
+    position: relative; }
+    #cartMain .cartCon .table-con table {
+      border: 1px solid #d9d8d6;
+      font-size: 14px;
+      position: relative;
+      font-family: arial, "微软雅黑", \5b8b\4f53, sans-serif; }
+      #cartMain .cartCon .table-con table tr .checkOne {
+        display: block;
+        width: 57px;
+        font-size: 14px;
+        position: relative;
+        top: 55px;
+        left: 22px;
+        text-align: center; }
+        #cartMain .cartCon .table-con table tr .checkOne input {
+          display: inline-block;
+          width: 14px;
+          height: 14px; }
+      #cartMain .cartCon .table-con table tr .tdImg img {
+        position: relative;
+        top: 0px;
+        left: 80px;
+        display: inline-block;
+        height: 115px;
+        width: 115px; }
+      #cartMain .cartCon .table-con table tr .tdInfo a {
+        display: inline-block;
+        width: 240px;
+        position: relative;
+        left: 60px;
+        text-align: left; }
+      #cartMain .cartCon .table-con table tr .tdPrice {
+        position: relative;
+        margin-left: 80px; }
+        #cartMain .cartCon .table-con table tr .tdPrice span {
+          position: relative;
+          left: 40px; }
+      #cartMain .cartCon .table-con table tr .tdAdd .cal {
+        display: block;
+        width: 94px;
+        margin: 0 auto; }
+        #cartMain .cartCon .table-con table tr .tdAdd .cal .reduce {
+          width: 20px;
+          height: 20px;
+          background: #eee;
+          float: left;
+          border: 1px solid #d2d2d2; }
+        #cartMain .cartCon .table-con table tr .tdAdd .cal .val {
+          width: 54px;
+          text-align: center;
+          height: 18px;
+          line-height: 18px;
+          float: left;
+          border: 0;
+          border-top: 1px solid #d9d8d6;
+          border-bottom: 1px solid #d9d8d6;
+          font-size: 14px; }
+        #cartMain .cartCon .table-con table tr .tdAdd .cal .add {
+          width: 20px;
+          height: 20px;
+          background: #eee;
+          float: left;
+          border: 1px solid #d2d2d2; }
+      #cartMain .cartCon .table-con table tr .money {
+        font-size: 14px;
+        color: #e2231a;
+        position: relative;
+        text-align: center; }
+      #cartMain .cartCon .table-con table tr .delete {
+        font-size: 14px;
+        position: relative;
+        text-align: center; }
+  #cartMain .cartCon .checkBoth {
+    border: 1px solid #d9d8d6;
+    background: #f8f8f8;
+    margin-top: 15px;
+    padding: 14px 15px;
+    overflow: hidden; }
+    #cartMain .cartCon .checkBoth .cbLeft {
+      float: left;
+      font-size: 13px; }
+      #cartMain .cartCon .checkBoth .cbLeft .checkAl {
+        float: left;
+        font-size: 14px;
+        text-align: center; }
+      #cartMain .cartCon .checkBoth .cbLeft a {
+        margin-left: 40px; }
+    #cartMain .cartCon .checkBoth .cbRight {
+      float: right; }
+      #cartMain .cartCon .checkBoth .cbRight span {
+        font-size: 18px;
+        color: #e2231a; }
+  #cartMain .gaveMoney {
+    padding: 15px 0 55px 0; }
+    #cartMain .gaveMoney a {
+      float: right;
+      width: 160px;
+      height: 38px;
+      line-height: 38px;
+      background: #e2231a;
+      border: 1px solid #d9d8d6;
+      border-radius: 5px;
+      text-align: center;
+      color: #fff;
+      font-size: 20px; }
+
+#work {
+  background: #fff; }
+  #work .work-bx {
+    width: 1200px;
+    height: 199px;
+    margin: 0 auto; }
+    #work .work-bx img {
+      width: 1200px;
+      height: 199px;
+      margin: 0 auto; }
+
+#info {
+  background: #fbfbfb; }
+  #info .info-bx {
+    width: 1200px;
+    overflow: hidden; }
+    #info .info-bx ul {
+      width: 1200px;
+      margin: auto;
+      padding: 70px 0 70px 76px;
+      position: relative; }
+      #info .info-bx ul li {
+        width: 152px;
+        float: left;
+        box-sizing: content-box; }
+        #info .info-bx ul li .title {
+          display: block;
+          font-size: 16px !important;
+          line-height: 16px !important;
+          margin-bottom: 18px !important;
+          font-weight: 600 !important;
+          color: #424242 !important; }
+        #info .info-bx ul li .unTitle {
+          display: block;
+          font-size: 13px;
+          line-height: 13px;
+          margin-bottom: 12px;
+          color: #757575; }
+      #info .info-bx ul .last {
+        width: 223px;
+        border-left: 1px solid #ccc;
+        padding-left: 50px;
+        margin-left: 5px; }
+        #info .info-bx ul .last h3 {
+          font-size: 20px;
+          letter-spacing: 0;
+          text-align: left;
+          color: #e1140a; }
+        #info .info-bx ul .last span {
+          font-size: 12px;
+          color: #757575;
+          letter-spacing: 0;
+          text-align: left;
+          line-height: 25px; }
+        #info .info-bx ul .last a {
+          background: url(https://p4.lefile.cn/product/adminweb/2019/08/19/23575141-fd1c-4488-b3a0-08ee2e7d0f8a.png);
+          display: inline-block;
+          width: 139px;
+          height: 36px; }
+
+#footer {
+  background: #272727;
+  border-top: 1px solid #424141; }
+  #footer .footer-bx {
+    width: 1200px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 46px;
+    color: #757575;
+    box-sizing: content-box;
+    overflow: hidden; }
+    #footer .footer-bx .footer-l {
+      float: left; }
+      #footer .footer-bx .footer-l a {
+        line-height: 46px;
+        font-size: 12px;
+        color: #757575; }
+    #footer .footer-bx .footer-r {
+      float: right; }
+      #footer .footer-bx .footer-r a {
+        line-height: 46px;
+        font-size: 12px;
+        color: #757575; }

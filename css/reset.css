@@ -1,0 +1,38 @@
+/* 清除自带边距 */
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,input{
+    margin: 0px;
+    padding: 0px;
+}
+/* 清除样式 */
+ul,li,ol{
+    list-style: none;
+}
+/* 清除下划线 */
+a{
+    text-decoration: none;
+}
+/* 清除倾斜 */
+i,em{
+    font-style: normal;
+}
+/* 清除加粗 */
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+
+/* 解决高度塌陷 */
+.clean-fix::after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+/* 清除点击激活下的样式 */ 
+input{
+    outline: none;
+}

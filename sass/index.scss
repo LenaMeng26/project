@@ -1,0 +1,497 @@
+// logo
+.h-logo {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  img{
+    width: 50px;
+    height: 50px;
+  }
+}
+// 版心
+.h-bx {
+  width: 1200px;
+  height: 50px;
+  // background:pink;
+  margin: 0 auto;
+  position: relative;
+  // nav
+  .h-nav {
+    float: left;
+    .ul_nav {
+      float: left;
+      margin-left: 20px;
+      .lis {
+        float: left;
+        line-height: 49px;
+        font-size: 15px;
+        margin-right: 22px;
+        a {
+          color: #8d8d8d;
+        }
+      }
+    }
+  }
+  // 右边
+  .h-right {
+    float: right;
+    height: 49px;
+    line-height: 50px;
+    margin-right: 20px;
+    display: block;
+    a {
+      color: #000;
+      font-size: 13px;
+    }
+    .vertical-line {
+      border-left: 1px solid #b8b8b8;
+      height: 11px;
+      display: inline-block;
+      margin: auto 2px;
+    }
+  }
+  // exit
+  .exit{
+    float: right;
+    height: 49px;
+    line-height: 50px;
+    margin-right: 20px;
+    display:block;
+    span{
+      color: red;
+      font-size: 13px;
+    }
+    a{
+      color: #000;
+      font-size: 13px;
+    }
+  }
+}
+// phone
+.phone {
+  width: 30px;
+  height: 50px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  
+}
+
+// header-box
+.header_box {
+  background: #e0e2e4;
+  position:sticky;
+  top:-20px;
+  z-index: 10;
+  .box-bx {
+    width: 1200px;
+    height: 70px;
+    // background:pink;
+    margin: 0 auto;
+    margin-left:50px;
+    .ul-box {
+      float: left;
+      li {
+        float: left;
+        margin-right: 45px;
+        line-height: 70px;
+        a {
+          font-size: 17px;
+          color: #3a3a3a;
+          font-weight: 550;
+        }
+      }
+    }
+    .box-right {
+      float: right;
+      width: 280px;
+      height: 40px;
+      position: relative;
+      margin-top: 17px;
+     
+      border-radius: 30px;
+      input {
+        border: none;
+        width: 270px;
+        height: 36px;
+        border-radius: 30px;
+        position: absolute;
+        background-color: #eaeaea;
+        top: 0px;
+        z-index: 0;
+        left: 0px;
+        font-size: 12px;
+        line-height: 36px;
+      }
+      .search {
+        cursor: pointer;
+        img {
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          right: 15px;
+          top: 8px;
+          line-height: 36px;
+          z-index: 5;
+        }
+      }
+    }
+  }
+}
+// banner
+#banner {
+  background: pink;
+  height: 470px;
+  position: relative;
+  .banner-bx {
+    width: 230px;
+    // border:1px solid red;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-left: -570px;
+    ul {
+      width: 230px;
+      background: rgba(255, 255, 255, 0.85);
+      cursor: pointer;
+      a {
+        display: block;
+        height: 25.5px;
+        line-height: 25.5px;
+        font-family: "微软雅黑";
+        color: #494949;
+        font-weight: 600;
+        position: relative;
+        padding: 16px 15px 15px 30px;
+        border-bottom: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        &:hover {
+          background: #ffffff;
+          color: red;
+        }
+        span {
+          position: absolute;
+          right: 19px;
+          top: 16px;
+          width: 6px;
+          height: 9px;
+        }
+      }
+    }
+  }
+}
+// mid-nav
+#mid-nav {
+  .mid-bx {
+    width: 1200px;
+    // background: #f9fbfd;
+    height: 95px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    ul {
+      text-align: center;
+      li {
+        width: 9.5%;
+        bottom: 5px;
+        top: 5px;
+        display: inline-block;
+        height: 95px;
+        line-height: 95px;
+        text-align: center;
+        &:hover {
+          background: #ffffff;
+          box-shadow: 2px 2px 5px rgba(198, 202, 202, 0.85);
+          transition: 1s;
+          transform: translateY(-1px);
+          span {
+            color: red;
+          }
+        }
+        a {
+          display: inline-block;
+          vertical-align: middle;
+          img {
+            display: block;
+            line-height: 95px;
+            width: 30px;
+            height: 30px;
+            margin: 5px auto;
+          }
+          span {
+            display: block;
+            height: 16px;
+            line-height: 16px;
+            font-size: 13px;
+            color: #505050;
+            margin-top: 2px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+// content
+#content {
+  background: #f6f7f8;
+  // margin-bottom:50px;
+  // Lenovo电脑
+  .first-c {
+    width: 1200px;
+    margin: 0px auto;
+    // background: #f6f7f8;
+
+    // top
+    .f-top {
+      margin-bottom: 16px;
+      overflow: hidden;
+      .t-left {
+        float: left;
+        height: 35px;
+        span {
+          font-size: 26px;
+          font-weight: bold;
+          color: #1f1f1f;
+          letter-spacing: -0.16px;
+        }
+      }
+      .t-right {
+        float: right;
+        height: 35px;
+        line-height: 35px;
+        a {
+          display: inline-block;
+          margin-right: 16px;
+          font-size: 14px;
+          color: #1f1f1f;
+        }
+      }
+    }
+    // bottom
+    .f-bottom {
+      overflow: hidden;
+      .b-left {
+        margin-top: 10px;
+        float: left;
+        width: 230px;
+        img {
+          width: 230px;
+          height: 542px;
+          &:hover {
+            opacity: 0.6;
+            filter: alpha(opacity=30);
+            background-color: #000;
+          }
+        }
+      }
+      .b-right {
+        width: 958px;
+        height: 590px;
+        float: right;
+        // background: royalblue;
+        ul {
+          width: 968px;
+          // 每个商品信息
+          li {
+            position: relative;
+            float: left;
+            width: 230px;
+            height: 265px;
+            margin-right: 10px;
+            background-color: #fff;
+            margin-bottom: 10px;
+            margin-top: 8px;
+            &:hover {
+              opacity: 0.8;
+              filter: alpha(opacity=50);
+              background-color: #ffffff;
+              box-shadow: 1px 1px 8px 1px gray;
+              transition: 0.9s;
+              transform: translate3d(0px, 0px, 90px);
+            }
+            //    商品图片
+            .box-t {
+              a {
+                display: block;
+                height: 170px;
+                line-height: 170px;
+                text-align: center;
+                img {
+                  width: 160px;
+                  height: 160px;
+                  vertical-align: middle;
+                }
+              }
+            }
+            // 商品详情
+            .box-b {
+              .bigFont {
+                display: block;
+                height: 19px;
+                line-height: 19px;
+                font-size: 15px;
+                color: #242424;
+                letter-spacing: -0.1px;
+                text-align: center;
+                font-weight: 600;
+                margin-top: 10px;
+                margin-bottom: 4px;
+                overflow: hidden;
+                padding: 0 15px;
+              }
+              .grayFont {
+                display: block;
+                font-size: 12px;
+                color: #858585;
+                letter-spacing: -0.07px;
+                text-align: center;
+                height: 14px;
+                line-height: 14px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                padding: 0 40px;
+              }
+              .price {
+                display: block;
+                font-size: 16px;
+                color: #e2231a;
+                letter-spacing: -0.1px;
+                text-align: center;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// 右侧导航栏
+#rightNav{
+    width: 50px;
+    height: auto;
+    z-index: 20;
+    position: fixed;
+    right: 16px;
+    top: 150px;
+    li{
+        display: block;
+        position: relative;
+        a{
+            display: block;
+            cursor: pointer;
+            img{
+                width:50px;
+            }
+        }
+    }
+}
+// 业务
+#work {
+  background: #fff;
+  .work-bx {
+    width: 1200px;
+    height: 199px;
+    margin: 0 auto;
+    img {
+      width: 1200px;
+      height: 199px;
+      margin: 0 auto;
+    }
+  }
+}
+
+// 相关信息
+#info {
+  background: #fbfbfb;
+  .info-bx {
+    width: 1200px;
+    overflow: hidden;
+    ul {
+      width: 1200px;
+      margin: auto;
+      padding: 70px 0 70px 76px;
+      position: relative;
+
+      li {
+        width: 152px;
+        float: left;
+        box-sizing: content-box;
+        .title {
+          display: block;
+          font-size: 16px !important;
+          line-height: 16px !important;
+          margin-bottom: 18px !important;
+          font-weight: 600 !important;
+          color: #424242 !important;
+        }
+        .unTitle {
+          display: block;
+          font-size: 13px;
+          line-height: 13px;
+          margin-bottom: 12px;
+          color: #757575;
+        }
+      }
+      .last {
+        width: 223px;
+        border-left: 1px solid #ccc;
+        padding-left: 50px;
+        margin-left: 5px;
+        h3 {
+          font-size: 20px;
+          letter-spacing: 0;
+          text-align: left;
+          color: #e1140a;
+        }
+        span {
+          font-size: 12px;
+          color: #757575;
+          letter-spacing: 0;
+          text-align: left;
+          line-height: 25px;
+        }
+        a {
+          background: url(https://p4.lefile.cn/product/adminweb/2019/08/19/23575141-fd1c-4488-b3a0-08ee2e7d0f8a.png);
+          display: inline-block;
+          width: 139px;
+          height: 36px;
+        }
+      }
+    }
+  }
+}
+
+// footer
+#footer {
+  background: #272727;
+  border-top: 1px solid #424141;
+  .footer-bx {
+    width: 1200px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 46px;
+    color:#757575;
+    box-sizing: content-box;
+    overflow: hidden;
+    .footer-l{
+        float: left;
+        a{
+            line-height: 46px;
+            font-size:12px;
+            color: #757575;
+        }
+    }
+    .footer-r{
+        float:right;
+        a{
+            line-height: 46px;
+            font-size:12px;
+            color: #757575;
+        }
+    }
+  }
+}

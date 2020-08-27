@@ -1,0 +1,132 @@
+body {
+  background: #f0f1f2; }
+
+#header {
+  background: #fff; }
+  #header .h-logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    outline: none; }
+  #header .h-bx {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 40px;
+    position: relative; }
+    #header .h-bx .h-nav {
+      float: left; }
+      #header .h-bx .h-nav .ul_nav {
+        float: left;
+        margin-left: 20px; }
+        #header .h-bx .h-nav .ul_nav .lis {
+          float: left;
+          line-height: 49px;
+          font-size: 15px;
+          margin-right: 22px; }
+          #header .h-bx .h-nav .ul_nav .lis a {
+            color: #8d8d8d; }
+  #header .phone {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 15px; }
+
+#content .content-table {
+  width: 358px;
+  margin: 60px auto 140px;
+  background-color: #fff;
+  padding: 52px 249px 64px; }
+  #content .content-table .c-title {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px; }
+  #content .content-table .c-input {
+    display: block;
+    position: relative;
+    width: 300px; }
+    #content .content-table .c-input .item {
+      width: 291px;
+      border: 1px solid #d6d6d6;
+      height: 48px;
+      line-height: 48px;
+      padding-left: 15px;
+      font-size: 14px;
+      color: #8c8c8c;
+      margin-bottom: 14px;
+      padding-right: 50px;
+      position: relative; }
+    #content .content-table .c-input span {
+      width: 100px;
+      height: 50px;
+      color: red; }
+    #content .content-table .c-input .uSpan {
+      position: absolute;
+      top: 15px;
+      left: 370px; }
+    #content .content-table .c-input .pSpan {
+      position: absolute;
+      top: 80px;
+      left: 370px; }
+    #content .content-table .c-input .rpSpan {
+      position: absolute;
+      top: 143px;
+      left: 370px; }
+  #content .content-table .reg {
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #ef1c22;
+    display: block;
+    margin-bottom: 40px; }
+    #content .content-table .reg a {
+      width: 358px;
+      height: 50px;
+      line-height: 50px;
+      display: block;
+      background-color: #e22319;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      margin-top: 10px; }
+  #content .content-table .reg-info {
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #757575; }
+    #content .content-table .reg-info span.reg-rules {
+      line-height: 20px;
+      display: inline-block;
+      padding-bottom: 17px;
+      border-bottom: 1px solid #e0e0e0; }
+      #content .content-table .reg-info span.reg-rules a {
+        color: #424242;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 13px; }
+    #content .content-table .reg-info p.reg-login {
+      display: block;
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 13px; }
+      #content .content-table .reg-info p.reg-login .reg-user {
+        float: left; }
+        #content .content-table .reg-info p.reg-login .reg-user a {
+          color: #424242;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-size: 13px; }
+          #content .content-table .reg-info p.reg-login .reg-user a:hover {
+            color: red; }
+      #content .content-table .reg-info p.reg-login .reg-company {
+        float: right; }
+        #content .content-table .reg-info p.reg-login .reg-company a {
+          color: #424242;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-size: 13px; }
+          #content .content-table .reg-info p.reg-login .reg-company a:hover {
+            color: red; }
